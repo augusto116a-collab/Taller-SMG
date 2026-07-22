@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html_code = """<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -151,61 +151,70 @@
             </tr>
         </thead>
         <tbody id="tabla-inspeccion">
-            <!-- 1° SISTEMA DEL MOTOR -->
+            <!-- 1° SISTEMA DE ILUMINACIÓN Y SEÑALIZACIÓN -->
+            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_3">Sistema de Iluminación y Señalización</td></tr>
+            <tr><td contenteditable="true" id="item_1">Luces de posición (Pilotos)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_2">Luces bajas (Cruce)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_3">Luces altas (Carretera)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_4">Luces de freno y tercera luz de freno</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_5">Intermitentes direccionales y luces de emergencia (Hazard)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_6">Luces de reversa (Retroceso)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_7">Carroceria</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_8">Escobillas wiper (Limpiaparabrisas)</td><td></td><td></td><td></td><td></td></tr>
+
+
+            <!-- 2° SISTEMA DEL MOTOR -->
             <tr class="cat"><td colspan="5" contenteditable="true" id="cat_1">Sistema del Motor</td></tr>
-            <tr><td contenteditable="true" id="item_1">Fugas de aceite</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_2">Fugas de refrigerante motor</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_3">Condición del líquido refrigerante</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_4">Correas de accesorios (Alternador, AC)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_5">Filtros de aire (Motor)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_6">Sistemas de luces testigos (Check Engine / Presión)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_7">Escobillas wiper (Limpiaparabrisas)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_8">Soportes de motor</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_9">Fugas de aceite</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_10">Fugas de refrigerante motor</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_11">Condición del líquido refrigerante</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_12">Correas de accesorios (Alternador, AC)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_13">Filtros de aire (Motor)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_14">Sistemas de luces testigos (Check Engine / Presión)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_15">Soportes de motor</td><td></td><td></td><td></td><td></td></tr>
 
-            <!-- 2° SISTEMA ELÉCTRICO Y ENCENDIDO -->
-            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_2">Sistema Eléctrico y Encendido</td></tr>
-            <tr><td contenteditable="true" id="item_9">Luces de posición (Pilotos)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_10">Luces de frenos</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_11">Luces altas</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_12">Luces bajas</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_13">Intermitentes direccionales y de emergencia</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_14">Batería (Bornes, voltaje y estado de carga)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_15">Sistema de carga (Alternador)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_16">Motor de arranque</td><td></td><td></td><td></td><td></td></tr>
+            <!-- 3° SISTEMA ELÉCTRICO Y CARGA / ENCENDIDO -->
+            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_2">Sistema Eléctrico, Carga y Encendido</td></tr>
+            <tr><td contenteditable="true" id="item_16">Batería (Bornes, sulfatación y estado de carga)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_17">Sistema de carga / Alternador (Voltaje de carga)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_18">Motor de arranque (Solenoide y consumo)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_19">Caja de fusibles y relés principales</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_20">Cableado principal y conexiones a tierra (Masa)</td><td></td><td></td><td></td><td></td></tr>
 
-            <!-- 3° SISTEMA DE SUSPENSIÓN Y DIRECCIÓN -->
-            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_3">Sistema de Suspensión y Dirección</td></tr>
-            <tr><td contenteditable="true" id="item_17">Reapriete de suspensión y dirección</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_18">Amortiguadores delanteros</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_19">Amortiguadores traseros</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_20">Terminales y rótulas de dirección</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_21">Links cauchos de barra estabilizadora</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_22">Líquido de power steering (Dirección asistida)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_23">Brazos de suspensión esféricas (Muñones)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_24">Brazos suspensión traseros / Bujes</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_25">Botas de cremallera de dirección</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_26">Llantas (Presión, desgaste y profundidad)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_27">Rodamientos de rueda (Bocines)</td><td></td><td></td><td></td><td></td></tr>
+            <!-- 4° SISTEMA DE SUSPENSIÓN Y DIRECCIÓN -->
+            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_4">Sistema de Suspensión y Dirección</td></tr>
+            <tr><td contenteditable="true" id="item_21">Reapriete de suspensión y dirección</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_22">Amortiguadores delanteros</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_23">Amortiguadores traseros</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_24">Terminales y rótulas de dirección</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_25">Links cauchos de barra estabilizadora</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_26">Líquido de power steering (Dirección asistida)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_27">Brazos de suspensión esféricas (Muñones)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_28">Brazos suspensión traseros / Bujes</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_29">Botas de cremallera de dirección</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_30">Llantas (Presión, desgaste y profundidad)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_31">Rodamientos de rueda (Bocines)</td><td></td><td></td><td></td><td></td></tr>
 
-            <!-- 4° SISTEMA DE FRENOS -->
-            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_4">Sistema de Frenos</td></tr>
-            <tr><td contenteditable="true" id="item_28">Tacos (Pastillas) de frenos delanteros</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_29">Tacos (Pastillas) de frenos traseros</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_30">Latiguillos de freno (Mangueras)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_31">Tuberías metálicas de freno</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_32">Líquido de frenos (Nivel y humedad)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_33">Bandas de frenos (Zapatas) y tambores</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_34">Discos de freno (Grosor y superficie)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_35">Freno de mano (Estacionamiento)</td><td></td><td></td><td></td><td></td></tr>
+            <!-- 5° SISTEMA DE FRENOS -->
+            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_5">Sistema de Frenos</td></tr>
+            <tr><td contenteditable="true" id="item_32">Tacos (Pastillas) de frenos delanteros</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_33">Tacos (Pastillas) de frenos traseros</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_34">Latiguillos de freno (Mangueras)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_35">Tuberías metálicas de freno</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_36">Líquido de frenos (Nivel y humedad)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_37">Bandas de frenos (Zapatas) y tambores</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_38">Discos de freno (Grosor y superficie)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_39">Freno de mano (Estacionamiento)</td><td></td><td></td><td></td><td></td></tr>
 
-            <!-- 5° SISTEMA DE TRANSMISIÓN Y EMBRAGUE -->
-            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_5">Sistema de Transmisión y Embrague</td></tr>
-            <tr><td contenteditable="true" id="item_36">Fugas en cárter o sellos de transmisión</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_37">Botas de ejes/flechas (Guardapolvos)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_38">Ejes de mando o cardan / Cruces</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_39">Nivel/Condición del aceite de transmisión</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_40">Operación del embrague (Clutch)</td><td></td><td></td><td></td><td></td></tr>
-            <tr><td contenteditable="true" id="item_41">Soportes de transmisión</td><td></td><td></td><td></td><td></td></tr>
+            <!-- 6° SISTEMA DE TRANSMISIÓN Y EMBRAGUE -->
+            <tr class="cat"><td colspan="5" contenteditable="true" id="cat_6">Sistema de Transmisión y Embrague</td></tr>
+            <tr><td contenteditable="true" id="item_40">Fugas en cárter o sellos de transmisión</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_41">Botas de ejes/flechas (Guardapolvos)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_42">Ejes de mando o cardan / Cruces</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_43">Nivel/Condición del aceite de transmisión</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_44">Operación del embrague (Clutch)</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_45">Soportes de transmisión</td><td></td><td></td><td></td><td></td></tr>
+            <tr><td contenteditable="true" id="item_46">mofreria</td><td></td><td></td><td></td><td></td></tr>
         </tbody>
     </table>
 
@@ -461,4 +470,9 @@
 </script>
 
 </body>
-</html>
+</html>"""
+
+with open("hoja_inspeccion_actualizada.html", "w", encoding="utf-8") as f:
+    f.write(html_code)
+
+print("HTML guardado correctamente.")
