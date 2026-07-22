@@ -467,12 +467,5 @@ html_code = """<!DOCTYPE html>
     }
 
     window.onload = actualizarTablaHistorial;
-</script>
-
-</body>
-</html>"""
-
-with open("hoja_inspeccion_actualizada.html", "w", encoding="utf-8") as f:
-    f.write(html_code)
 
 print("HTML guardado correctamente.")
